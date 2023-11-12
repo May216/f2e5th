@@ -1,0 +1,32 @@
+.header {
+  color: #FFF;
+  font-family: Noto Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #466185;
+  padding: 1rem 9rem;
+}
+
+.title {
+  font-family: Noto Serif CJK TC;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  transform: translate(3rem, -1.5rem);
+}
+
+.name {
+  writing-mode: vertical-lr;
+  color: #FFF;
+  font-family: Noto Serif CJK TC;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
