@@ -10,6 +10,18 @@
   perspective: 1000px;
 }
 
+.m-menu-icon-input {
+  display: none;
+}
+
+.m-menu {
+  display: none;
+}
+
+.m-menu-icon-input:checked ~ .m-menu {
+  display: block;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
