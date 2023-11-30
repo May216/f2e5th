@@ -18,7 +18,7 @@ const MENU = [
 
 const Header = () => {
   return (
-    <header className="fixed w-full z-50 top-0 py-2 bg-white lg:(py-4 h-[100px]) lg:h-[60px]">
+    <header className="fixed w-full z-50 top-0 py-2 bg-white lg:(py-4 h-[100px])">
       <div className="flex h-full px-5 mx-auto justify-between items-center max-w-[1240px]">
         <div className="flex items-center w-[150px] md:w-[180px] lg:w-[200px]">
           <img src="/logo.png" alt="logo" className="w-full h-auto" />
@@ -47,7 +47,7 @@ const Header = () => {
           <label for="menu-toggle" class="cursor-pointer">
             <img src="menu.svg" class="w-7 h-7" color="#41289a" />
           </label>
-          <div className="m-menu absolute transition ease-in-out bg-[#41289a] w-1/2 h-screen right-0 top-full">
+          <div className="m-menu absolute bg-[#41289a] w-1/2 h-screen right-0 top-full">
             <ul className="flex flex-col gap-8 text-right p-6 text-xl">
               {MENU.map((item) => (
                 <li key={item.name}>
