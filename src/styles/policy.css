@@ -1,0 +1,19 @@
+.policy-card {
+  @apply col-span-1 md:min-h-23rem bg-white rounded p-.5rem transition duration-300 hover:(translate-y-[-5px] scale-101 md:scale-103);
+}
+
+.policy-tag {
+  @apply bg-tag w-fit h-auto text-center rounded-tl rounded-br mb-2 px-2 py-1;
+}
+
+.policy-tag-text {
+  @apply text-white text-sm;
+}
+
+.policy-title {
+  @apply text-lg md:text-2xl mb-2;
+}
+
+.policy-content {
+  @apply ml-2.5 pl-2 text-xs md:text-sm xl:text-base pb-2;
+}

@@ -1,30 +1,19 @@
-import React from "react"
-import Header from './components/Header'
-import Banner from "./components/Banner"
-import Events from "./components/Events"
-import Policy from "./components/Policy"
-import "./App.css"
+import React from 'react'
+import { Header, Banner, Events, Policy, Donate, Contact, Footer } from '@/components'
+import '@/styles/App.css'
 
 function App() {
   return (
-    <div className="h-screen">
+    <div className=":uno: h-screen">
       <Header />
-      <main className="mt-[60px] lg:mt-[90px] xl:mt-[100px]">
+      <main className=":uno: mt-3.75rem lg:mt-5.6rem xl:mt-6.25rem">
         <Banner />
         <Events />
         <Policy />
-        {/* 小額捐款 */}
-        <section>
-
-        </section>
-        {/* 民眾服務信箱 */}
-        <section>
-
-        </section>
+        <Donate />
+        <Contact />
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </div>
   )
 }

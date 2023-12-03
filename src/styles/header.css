@@ -1,0 +1,29 @@
+.shake-animation:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.m-menu-border {
+  @apply text-white border-solid border-b-3 border-transparent transition ease-in-out pb-1 hover:border-white;
+}
+
+.menu-border {
+  @apply border-solid border-b-3 border-transparent transition ease-in-out pb-1 hover:border-main;
+}
+
+.m-menu-icon-input {
+  display: none;
+}
+
+.m-menu {
+  transform: translate(100%);
+  visibility: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.m-menu-icon-input:checked ~ .m-menu {
+  transform: translate(0);
+  visibility: visible;
+}

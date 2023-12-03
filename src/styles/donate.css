@@ -1,0 +1,6 @@
+.donate-container {
+  background: no-repeat center/cover url(../assets/donate-bg.png);
+  width: 100%;
+  height: 45rem;
+  position: relative;
+}

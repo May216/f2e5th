@@ -1,0 +1,7 @@
+export * from './Banner'
+export * from './Contact'
+export * from './Donate'
+export * from './Events'
+export * from './Footer'
+export * from './Header'
+export * from './Policy'
