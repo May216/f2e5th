@@ -1,0 +1,19 @@
+.date-tag-conatiner {
+  @apply p-3 text-ellipsis overflow-hidden;
+}
+
+.date-tag {
+  @apply bg-tag text-sm flex items-center justify-center text-center text-white w-20 md:mb-1 rounded-tl rounded-br;
+}
+
+.event-img {
+  @apply rounded-l w-full h-full object-cover;
+}
+
+.event-title {
+  @apply md:(mb-1 text-xl);
+}
+
+.event-content {
+  @apply text-xs sm:text-.7rem md:text-.8rem lg:text-base;
+}
