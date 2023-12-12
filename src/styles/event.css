@@ -15,5 +15,5 @@
 }
 
 .event-content {
-  @apply text-xs sm:text-.7rem md:text-.8rem lg:text-base;
+  @apply  text-ellipsis overflow-hidden text-xs line-clamp-2 sm:(line-clamp-none text-.7rem) md:text-.8rem lg:text-base;
 }

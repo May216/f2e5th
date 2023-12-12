@@ -28,16 +28,16 @@ export const Banner = () => {
                 </div>
               </div>
             </div>
-            <div className=":uno: absolute top-1/2 -translate-y-6.875rem flex right-8 sm:-translate-y-11.563rem md:-translate-y-64 lg:(-translate-y-20.375rem right-20)">
+            <div className=":uno: absolute top-1/2 -translate-y-4.2rem flex right-5 sm:-translate-y-11.563rem md:-translate-y-64 lg:(-translate-y-20.375rem right-20)">
               <div
                 data-aos="zoom-in"
-                className=":uno: relative z-10 w-15.13rem h-19.69rem sm:(w-18.75rem h-24.38rem) md:(w-23.8rem h-30rem) lg:(w-31.25rem h-40.75rem)"
+                className=":uno: relative z-10 w-13.13rem h-17rem sm:(w-18.75rem h-24.38rem) md:(w-23.8rem h-30rem) lg:(w-31.25rem h-40.75rem)"
               >
                 <img src={getImageUrl('candidate.webp')} className=":uno: full-size" />
               </div>
               <div
                 data-aos="fade-down"
-                className=":uno: mt-4 w-7.5rem h-25rem right-[-2rem] lg:(w-8.125rem h-26.875rem mt-2 right-[-4rem]) absolute hidden md:flex"
+                className=":uno: mt-4 w-7.5rem h-25rem right-[0rem] lg:(w-8.125rem h-26.875rem mt-2 right-[-4rem]) absolute hidden md:flex"
               >
                 <img src={getImageUrl('name.svg')} className=":uno: full-size" />
               </div>
@@ -47,8 +47,8 @@ export const Banner = () => {
       </section>
       <section data-aos="zoom-in" className=":uno: flex justify-center mx-10 lg:mx-20">
         <div className=":uno: w-full">
-          <div className=":uno: flex gap-4 md:gap-16 ml-10">
-            <div className=":uno: flex flex-col gap-5 p-8 bg-white border-solid border-5 border-main rounded-tl-8rem rounded-br-8rem drop-shadow-[-15px_20px_#41289a] md:(gap-8 ml-0)">
+          <div className=":uno: flex gap-4 ml-7 md:(gap-16 ml-10)">
+            <div className=":uno: flex flex-col gap-5 p-4 bg-white border-solid border-5 border-main rounded-tl-6rem rounded-br-6rem drop-shadow-[-10px_10px_#41289a]  md:(gap-8 ml-0 p-8 drop-shadow-[-15px_20px_#41289a])">
               <p className=":uno: text-2xl md:text-3xl lg:text-4xl font-bold text-center whitespace-pre-line line-height-normal break-keep">
                 護航台灣幸福經濟 從照顧每一隻貓咪開始
               </p>

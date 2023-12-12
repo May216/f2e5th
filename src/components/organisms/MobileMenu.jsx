@@ -6,7 +6,7 @@ export const MobileMenu = () => {
   return (
     <div className=":uno: md:hidden">
       <input type="checkbox" id="menu-toggle" class="m-menu-icon-input" />
-      <label for="menu-toggle" class="cursor-pointer">
+      <label for="menu-toggle" class="cursor-pointer mr-2">
         <img src={getImageUrl('menu.svg')} class="w-7 h-7" />
       </label>
       <div className=":uno: m-menu absolute bg-main w-1/2 h-screen right-0 top-full">
