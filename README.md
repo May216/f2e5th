@@ -1,2 +1,3 @@
 # f2e5th
-https://2023.thef2e.com/
+React + Vite + unoCSS
+- demo: [f2e5th.vercel.app](https://f2e5th.vercel.app/)
